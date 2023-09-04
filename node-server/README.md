@@ -1,0 +1,3 @@
+¿Qué sucedió al usar async y await?: Es muy funcional y eficaz, me gustó más que nada porque cuando la use en el "panel.js" se puede administrar el resultado de las promesas que retornan, además también todas las funciones funcionan al tiempo, mucho más rápido.
+¿Qué sucedió al usar el método then()?: Este es diferente, porque solo llama las funciones de forma lineal a la vez, entonces para este ejercicio que tengo que usar más de una función pues es más demorado.
+¿Qué diferencias encontraste entre async, await y el método then()?: Cuando uso async y wait las funciones corren independientemente y al tiempo, y con then() va función por función de forma linea, por eso me gusra más async y wait, para agilizar.

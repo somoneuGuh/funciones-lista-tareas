@@ -6,12 +6,10 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const complete = () => {
-  console.log(taskList);
-  rl.question("tarea terminada: ", (index) => {
+const complete = (index) => {
+  return new Promise((resolve, reject) => {
     completedTask.push(taskList[index]);
-    console.log(completedTask);
-    rl.close();
+    resolve(taskList);
   });
 };
 complete();

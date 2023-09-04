@@ -1,3 +1,5 @@
-const taskList = ["hola1", "hola 2"];
+const taskList = [
+  { nombre: "salir al parque", descripcion: "trotar", estado: "pendiente" },
+];
 
 module.exports = taskList;
